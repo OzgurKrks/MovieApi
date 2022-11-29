@@ -1,0 +1,143 @@
+#navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(8, 57, 70);
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container h2 {
+    color: white;
+    padding-top: 8px;
+
+}
+
+#container button {
+    height: 40px;
+
+}
+
+#buttons {
+    padding-top: 8px;
+    display: flex;
+    column-gap: 35px;
+}
+
+#inp {
+    height: 50px;
+    width: 350px;
+    border-radius: 0px;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 243, 228);
+}
+
+.input {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards {
+
+    width: 600px;
+    height: auto;
+}
+
+#card-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.col-3 {
+    padding-top: 15px;
+}
+
+.col-3 img {
+    width: 150px;
+
+
+}
+
+.col-6 {
+    width: 400px;
+    padding-top: 15px;
+
+}
+
+.col-6 h3 {
+    font-size: 20px;
+}
+
+.col-6 button {
+    margin-top: 120px;
+
+}
+
+.cards {
+    width: 205px;
+    height: 280px;
+
+    position: relative;
+    margin: 45px;
+
+}
+
+.cards img {
+    width: 200px;
+    height: 280px;
+    transition: 1s;
+}
+
+.cards i {
+    font-size: 35px;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.cards:hover i {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cards i:hover {
+    opacity: 1;
+}
+
+.cards:hover img {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+#image {
+    width: 200px;
+    height: 300px;
+}
+
+.cardss {
+    width: 205px;
+    height: 280px;
+
+}
+
+.alert {
+    overflow: hidden;
+    width:500px ;
+    position: fixed;
+    top: 0;
+}
+
+@media only screen and (max-width: 770px) {
+    #title {
+        position: absolute;
+        left: 265px;
+    }
+}
